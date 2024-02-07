@@ -24,6 +24,7 @@ public class App {
         // Check document in collection
         Document myDoc = collection.find().first();
         System.out.println(myDoc.toJson());
+        System.out.println("Initial 0.1-alpha-2 version...");
 
     }
 }
