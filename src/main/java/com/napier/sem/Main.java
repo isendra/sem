@@ -1,6 +1,6 @@
 package com.napier.sem;
-public class App {
+public class Main {
     public static void main(String[] args) {
-        System.out.println("App Test...");
+        System.out.println("Hello World...");
     }
 }
