@@ -8,4 +8,4 @@ This repository is up-to-date with **Lab02** from:
 
 https://github.com/edinburgh-napier/SET08103/tree/main/labs/
 
-This is the Main branch.
+This is the Master branch.
