@@ -9,3 +9,21 @@ This repository is up-to-date with **Lab02** from:
 https://github.com/edinburgh-napier/SET08103/tree/main/labs/
 
 This is the Master branch.
+
+<br>
+Our Current Process
+
+This is our current workflow. This is an important set of steps so document them:
+
+<ol>
+<li>Pull the latest develop branch.</li>
+<li>Start a new feature branch.</li>
+<li>Once feature is finished, create JAR file.</li>
+<li>Update and test Docker configuration with GitHub Actions.</li>
+<li>Update feature branch with develop to ensure feature is up-to-date.</li>
+<li>Check feature branch still works.</li>
+<li>Merge feature branch into develop.</li>
+<li>Repeat 2-7 until release is ready.</li>
+<li>Merge develop branch into release and create release.</li>
+<li>Merge release into master and develop.</li>
+</ol>
