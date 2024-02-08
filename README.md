@@ -29,3 +29,5 @@ This is our current workflow. This is an important set of steps so document them
 <li>Merge develop branch into release and create release.</li>
 <li>Merge release into master and develop.</li>
 </ol>
+
+Hello Test by Maja
