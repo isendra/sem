@@ -27,4 +27,7 @@ public class App {
         System.out.println("Initial 0.1-alpha-2 version...");
 
     }
+
+    public void printSalaries(Object o) {
+    }
 }
