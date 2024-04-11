@@ -1,0 +1,2 @@
+[submodule "db\world_db"]
+	path = db\world_db
