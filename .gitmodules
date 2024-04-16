@@ -1,2 +1,2 @@
-[submodule "db\world_db"]
-	path = db\world_db
+[submodule "db/world_db"]
+	path = db/world_db
