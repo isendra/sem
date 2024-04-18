@@ -30,12 +30,6 @@ body:
       value: "A bug happened!"
     validations:
       required: true
-  - type: textarea
-    id: logs
-    attributes:
-      description: By submitting this issue, you agree to follow out Code of Conduct
-      label: I agree to follow this Code of Conduct
-          required: true
 
 
 
