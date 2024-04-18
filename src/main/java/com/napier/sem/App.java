@@ -16,8 +16,7 @@ public class App
 
     private Connection con = null;
 
-    //Connect to the MySQL database
-
+    //Connect method to the MySQL database
     public void connect()
     {
         try
@@ -64,7 +63,7 @@ public class App
         }
     }
 
-    //Disconnect from the MySQL database
+    //Disconnect method from the MySQL database
     public void disconnect()
     {
         if (con !=null)
