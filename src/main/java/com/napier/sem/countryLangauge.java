@@ -21,6 +21,3 @@ public class countryLangauge {
          */
         public float Percentage;
     }
-
-
-}

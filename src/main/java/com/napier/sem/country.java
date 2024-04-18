@@ -35,4 +35,3 @@ public class country {
          */
         public int Population;
     }
-}

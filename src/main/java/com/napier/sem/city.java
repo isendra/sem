@@ -1,8 +1,6 @@
 package com.napier.sem;
 
 public class city {
-
-    public class city {
         /**
          * city ID
          */
@@ -29,4 +27,4 @@ public class city {
         public int Population;
 
     }
-}
+
