@@ -1,13 +1,13 @@
 name: Bug Report
 description: File a bug report.
 title: "[Bug]: "
-labels: ["bug", "triage"]
+labels: ["bug", " triage"]
 projects: ["sem"]
 assignees:
 - isendra
-- alicenur04
-- maja4h
-- LeoEggett
+-  alicenur04
+-  maja4h
+-  LeoEggett
 body:
   - type: markdown
     attributes:
