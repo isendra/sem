@@ -1,0 +1,60 @@
+name: Bug Report
+description: File a bug report.
+title: "[Bug]: "
+labels: ["bug", "triage"]
+projects: ["sem"]
+assignees:
+- isendra
+- alicenur04
+- maja4h
+- LeoEggett
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report.
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if you need more info?
+      placeholder: some@email.com
+    validations: 
+      required: false
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Also tell us, what did you think or expect to happen.
+      placeholder: Tell us what you see.
+      value: "A bug happened!"
+    validations:
+      required: true
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: What browsers are you seeing the problem on?
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: By submitting this issue, you agree to follow out Code of Conduct
+      options:
+        - label: I agree to follow this Code of Conduct
+        required: true
+
+
+
+
+
+
+
+
+      
+  
