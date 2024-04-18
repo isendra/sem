@@ -5,9 +5,9 @@ labels: ["bug", " triage"]
 projects: ["sem"]
 assignees:
 - isendra
--  alicenur04
--  maja4h
--  LeoEggett
+- alicenur04
+- maja4h
+- LeoEggett
 body:
   - type: markdown
     attributes:
