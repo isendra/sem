@@ -1,12 +1,24 @@
 package com.napier.sem;
 
-//adding MYSQL server code to start up the database
+//Added MYSQL server code to start up the database
+//Added Connect and Disconnect Functionalities
+//Updating connect method to support local connection
 
 import java.sql.*;
 
 public class App
 {
     public static void main(String[] args)
+    {
+
+
+    }
+
+    private Connection con = null;
+
+    //Connect to the MySQL database
+
+    public void connect()
     {
         try
         {
@@ -20,7 +32,9 @@ public class App
         }
 
         //Connection to the database
-        Connection con = null;
+        //Connection con = null;
+
+        //Connect to the database
         int retries = 100;
         for (int i = 0; i < retries; ++i)
         {
@@ -48,7 +62,11 @@ public class App
                 System.out.println("Thread interrupted? Should not happen.");
             }
         }
+    }
 
+    //Disconnect from the MySQL database
+    public void disconnect()
+    {
         if (con !=null)
         {
             try
