@@ -4,7 +4,7 @@
 
 This is Group 13's repository for Software Engineering Methods SET09117
 
-        ? requirements of 32 have been implemented, which is ?%? 
+        ? requirements of 32 have been implemented, which is ?%
 
 | ID | Name                                                                                                  | Met    | Screenshot                                                                                           |
 |----|-------------------------------------------------------------------------------------------------------|--------|------------------------------------------------------------------------------------------------------|
